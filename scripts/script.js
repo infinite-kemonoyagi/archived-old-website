@@ -73,17 +73,17 @@ signature.style.transform = `scale(1)`;
 var bgColorsArt = {};
 var musicList = {};
 
-fetch("/scripts/colorsArts.json")
+fetch("scripts/colorsArts.json")
  .then(a => a.json())
  .then(b => bgColorsArt = b)
  .catch(error => console.error(error));
 
-fetch("/scripts/musicList.json")
+fetch("scripts/musicList.json")
  .then(a => a.json())
  .then(b => musicList = b)
  .catch(error => console.error(error));
 
-var channelID = "UCDj81omvan8taVYgl7w0ZZQ";
+var channelID = "UCNCFay8HB5XBx1zAZaRMIEg";
 var reqURL = "https://www.youtube.com/feeds/videos.xml?channel_id=";
 
 try
@@ -336,7 +336,8 @@ for (let i = 0; i < images.length; ++i)
                     let musicTop = parseFloat(musicPlayerBG.style.top.replace('vh', ''));
                     let musicOpacity = parseFloat(musicPlayerBG.style.opacity);
 
-                    music.src = curMusicPath = `/assets/music/${musicList[elementByID.id].path}`;
+                    music.src = curMusicPath = `assets/music/${musicList[elementByID.id].path}`;
+                    music.volume = 0.25;
                     music.load();
                     music.addEventListener('canplaythrough', () => 
                     {

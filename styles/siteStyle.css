@@ -4,7 +4,7 @@ html, body
     padding: 0;
 
     background-color: #352f46;
-    background-image: url("/assets/img/bgicon.png");
+    background-image: url("assets/img/bgicon.png");
     background-repeat: repeat;
     background-attachment: fixed;
     background-position: center;
@@ -31,7 +31,7 @@ html, body
     font-weight: 500;
     /* font-variant-position: super; */
     /* font-size: small; */
-    src: url('/fonts/DIGIFIT.ttf');
+    src: url('fonts/DIGIFIT.ttf');
 }
 
 @font-face 
@@ -41,7 +41,7 @@ html, body
     font-weight: 100;
     line-height: 24px;
     /* font-size: small; */
-    src: url('/fonts/FALCON.TTF');
+    src: url('fonts/FALCON.TTF');
 }
 
 @font-face 
@@ -50,7 +50,7 @@ html, body
     font-style: normal;
     font-weight: 100;
     /* font-size: small; */
-    src: url('/fonts/Year.otf');
+    src: url('fonts/Year.otf');
 }
 
 @font-face 
@@ -59,7 +59,7 @@ html, body
     font-style: normal;
     font-weight: 100;
     /* font-size: small; */
-    src: url('/fonts/PixdorTwo.ttf');
+    src: url('fonts/PixdorTwo.ttf');
 }
 
 @font-face 
@@ -68,5 +68,5 @@ html, body
     font-style: normal;
     font-weight: 100;
     /* font-size: small; */
-    src: url('/fonts/Pineapple Days.otf');
+    src: url('fonts/Pineapple Days.otf');
 }
