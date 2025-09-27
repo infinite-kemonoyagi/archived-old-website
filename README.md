@@ -1,4 +1,4 @@
-# [Infinite doggy's Site](https://infidoggy.github.io/)
+# [Infinite doggy's Site](https://infinite-kemonoyagi.github.io/)
 
 ## Hi so yeah this is my website
 I use this website as a mirror of all my social medias.
